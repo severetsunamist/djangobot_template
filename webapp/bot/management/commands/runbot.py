@@ -8,4 +8,4 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         print("Bot is running")
-        asyncio.run(bot.polling())
+        asyncio.run(bot.infinity_polling())
